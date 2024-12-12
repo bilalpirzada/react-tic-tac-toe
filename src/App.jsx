@@ -31,7 +31,7 @@ function handleSquareSelect(rowIndex,colIndex){
       </ol>
       <GameBoard onSelectSquare={handleSquareSelect} turns={gameTurns}/>
     </div>
-    <Log/>
+    <Log turns={gameTurns} />
    </main>
   )
 }
